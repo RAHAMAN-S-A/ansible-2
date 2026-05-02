@@ -1,6 +1,5 @@
 - name: Setup Web Server
   hosts: web
-  connection: web
   become: yes
 
   roles:
